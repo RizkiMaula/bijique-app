@@ -23,6 +23,7 @@ function App() {
         productTitle={productTitle}
         products={products}
       />
+      <Events />
       <Footer
         logo={logoHome}
         companyName={companyName}

@@ -137,7 +137,7 @@ const customerTitle = 'Our Happy Customers';
 const customers = [
   {
     id: 1,
-    name: 'Rahmat Mewing',
+    name: 'Rahmat Sigma',
     img: rahmat,
     review: 'Good product and make my garden more beautiful',
   },

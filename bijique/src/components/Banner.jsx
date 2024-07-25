@@ -1,4 +1,5 @@
 import { imgBanner, bannerEn, bannerId } from '../helpers/consts';
+import Button from './Button';
 
 const Banner = () => {
   return (
@@ -12,12 +13,7 @@ const Banner = () => {
         {bannerEn.map((text) => (
           <h1 className="text-2xl font-bold text-slate-600">{text}</h1>
         ))}
-        <a
-          href="#"
-          className="p-4 border-black rounded-2xl border-3 bg-slate-300 hover:text-white hover:bg-slate-500"
-        >
-          Learn More
-        </a>
+        <Button buttonText="Find Out More" />
       </div>
     </div>
   );
