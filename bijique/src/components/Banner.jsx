@@ -11,7 +11,7 @@ const Banner = () => {
       />
       <div className="absolute flex flex-col text-center banner-text bottom-11">
         {bannerEn.map((text) => (
-          <h1 className="text-2xl font-bold text-slate-600">{text}</h1>
+          <h1 className="text-2xl font-bold text-black">{text}</h1>
         ))}
         <Button buttonText="Find Out More" />
       </div>

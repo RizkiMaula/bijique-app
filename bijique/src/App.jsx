@@ -1,10 +1,30 @@
 import './App.css';
-import { navLinks, logoHome, languages, companyName, companyProfile, productTitle, products, marketplaceTitle, marketplaces, socialTitle, socialMedia, imgBanner, bannerEn, bannerId, customerTitle, customers } from './helpers/consts';
+import {
+  navLinks,
+  logoHome,
+  languages,
+  companyName,
+  companyProfile,
+  productTitle,
+  products,
+  marketplaceTitle,
+  marketplaces,
+  socialTitle,
+  socialMedia,
+  imgBanner,
+  bannerEn,
+  bannerId,
+  customerTitle,
+  customers,
+  eventTitle,
+  events,
+} from './helpers/consts';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Banner from './components/Banner';
 import Customers from './components/Customers';
 import Products from './components/Products';
+import Events from './components/Events';
 
 function App() {
   return (
@@ -23,7 +43,10 @@ function App() {
         productTitle={productTitle}
         products={products}
       />
-      <Events />
+      <Events
+        eventTitle={eventTitle}
+        events={events}
+      />
       <Footer
         logo={logoHome}
         companyName={companyName}

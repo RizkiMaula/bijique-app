@@ -9,6 +9,7 @@ import bonsais from '../assets/bonsai.jpg';
 import gardening from '../assets/gardening.jpg';
 import fertilizer from '../assets/fertilizer.jpg';
 import pot from '../assets/pot.jpg';
+import event1 from '../assets/event1.jpg';
 
 const navLinks = [
   {
@@ -161,4 +162,13 @@ const customers = [
   },
 ];
 
-export { navLinks, logoHome, languages, companyName, companyProfile, productTitle, products, marketplaceTitle, marketplaces, socialTitle, socialMedia, imgBanner, bannerEn, bannerId, customerTitle, customers };
+const eventTitle = 'Events';
+const events = [
+  {
+    id: 1,
+    name: 'Garden Festival',
+    img: event1,
+  },
+];
+
+export { navLinks, logoHome, languages, companyName, companyProfile, productTitle, products, marketplaceTitle, marketplaces, socialTitle, socialMedia, imgBanner, bannerEn, bannerId, customerTitle, customers, eventTitle, events };
