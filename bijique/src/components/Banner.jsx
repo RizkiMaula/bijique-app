@@ -10,7 +10,7 @@ const Banner = () => {
         className="w-[100%] relative top-0 opacity-[60%]"
       />
       <div className="absolute flex flex-col text-center banner-text bottom-11">
-        {bannerEn.map((text) => (
+        {bannerId.map((text) => (
           <h1 className="text-2xl font-bold text-black">{text}</h1>
         ))}
         <Button buttonText="Find Out More" />

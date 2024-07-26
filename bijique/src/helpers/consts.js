@@ -10,6 +10,8 @@ import gardening from '../assets/gardening.jpg';
 import fertilizer from '../assets/fertilizer.jpg';
 import pot from '../assets/pot.jpg';
 import event1 from '../assets/event1.jpg';
+import event2 from '../assets/event2.jpg';
+import event3 from '../assets/event3.jpg';
 
 const navLinks = [
   {
@@ -168,6 +170,16 @@ const events = [
     id: 1,
     name: 'Garden Festival',
     img: event1,
+  },
+  {
+    id: 2,
+    name: 'How to Make a Beautiful Garden At Home',
+    img: event2,
+  },
+  {
+    id: 3,
+    name: 'Garden For Beginners',
+    img: event3,
   },
 ];
 
