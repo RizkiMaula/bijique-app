@@ -31,6 +31,24 @@ const navLinks = [
   },
 ];
 
+const navLinksId = [
+  {
+    id: 1,
+    name: 'Beranda',
+    url: '#home',
+  },
+  {
+    id: 2,
+    name: 'Produk',
+    url: '#products',
+  },
+  {
+    id: 3,
+    name: 'Kegiatan',
+    url: '#Events',
+  },
+];
+
 const companyName = 'PT Bijique Senang Bersama';
 const companyProfile = [
   {
@@ -79,6 +97,40 @@ const products = [
   {
     id: 5,
     name: 'Bonsai trees',
+    url: '#',
+    img: bonsais,
+  },
+];
+
+const productTitleId = 'Product';
+const productsId = [
+  {
+    id: 1,
+    name: 'Bibit',
+    url: '#',
+    img: seeds,
+  },
+  {
+    id: 2,
+    name: 'Peralatan Kebun',
+    url: '#',
+    img: gardening,
+  },
+  {
+    id: 3,
+    name: 'Pupuk',
+    url: '#',
+    img: fertilizer,
+  },
+  {
+    id: 4,
+    name: 'Pot & Media Tanam',
+    url: '#',
+    img: pot,
+  },
+  {
+    id: 5,
+    name: 'Pohon Bonsai',
     url: '#',
     img: bonsais,
   },
@@ -148,16 +200,22 @@ const customers = [
     id: 2,
     name: 'Joko Family',
     img: joko,
-    review: 'Good product and make my garden more beautiful',
+    review: 'Bagus Barangnya RAwr',
   },
   {
     id: 3,
     name: 'Duleh Pupuk',
     img: duleh,
-    review: 'Good product and make my garden more beautiful',
+    review: 'Pohon Saya jadi berbuah pisang, padahal pohon pepaya ',
   },
   {
     id: 4,
+    name: 'Jupri Daon',
+    img: jupri,
+    review: 'Good product and make my garden more beautiful',
+  },
+  {
+    id: 5,
     name: 'Jupri Daon',
     img: jupri,
     review: 'Good product and make my garden more beautiful',
